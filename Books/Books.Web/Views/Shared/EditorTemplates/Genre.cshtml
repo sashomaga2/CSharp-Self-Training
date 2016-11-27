@@ -1,0 +1,11 @@
+﻿
+@using Books.Entities
+@using Books.Web.Helpers
+@{ 
+    /* Type c# code here! */
+    //var items = new List<SelectListItem>();
+    var items = typeof(Genre).GetItems((int?)Model);
+}
+
+
+@Html.DropDownList("", items);

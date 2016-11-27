@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Web", "Books.Web\Books.Web.csproj", "{E526A0CD-33D8-45A7-9E06-5C2E970DB882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Entities", "Books.Entities\Books.Entities.csproj", "{4CBA489A-6FAA-4BDD-A108-AC229051679B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E526A0CD-33D8-45A7-9E06-5C2E970DB882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E526A0CD-33D8-45A7-9E06-5C2E970DB882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E526A0CD-33D8-45A7-9E06-5C2E970DB882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E526A0CD-33D8-45A7-9E06-5C2E970DB882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBA489A-6FAA-4BDD-A108-AC229051679B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBA489A-6FAA-4BDD-A108-AC229051679B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBA489A-6FAA-4BDD-A108-AC229051679B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBA489A-6FAA-4BDD-A108-AC229051679B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
